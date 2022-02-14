@@ -26,9 +26,6 @@ module.exports = {
       },
     ],
   },
-  "editor.codeActionsOnSave": {
-    "source.fixAll": true,
-  },
   overrides: [
     {
       files: [
