@@ -5,7 +5,6 @@ module.exports = {
   },
   extends: [
     "plugin:vue/essential",
-    "eslint:recommended",
     "@vue/typescript/recommended",
     "@vue/prettier",
     "@vue/prettier/@typescript-eslint",
@@ -21,8 +20,11 @@ module.exports = {
       {
         singleQuote: true,
         tabWidth: 2,
-        useTabs: false,
+        useTabs: true,
         trailingComma: "es5",
+      },
+      {
+        usePrettierrc: false,
       },
     ],
   },
